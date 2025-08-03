@@ -1,6 +1,7 @@
 // ignore_for_file: sized_box_for_whitespace, sort_child_properties_last
 
 import 'package:flutter/material.dart';
+import 'package:update_flu/widget/Drawer.dart';
 import 'package:update_flu/widget/promoCard.dart';
 
 class Home extends StatelessWidget {
@@ -10,6 +11,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromRGBO(244, 243, 243, 1),
+      drawer: CustomDrawerWidget(),
 
       body: SafeArea(
         child: Column(

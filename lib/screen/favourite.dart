@@ -5,8 +5,9 @@ class Favourite extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
+    return Container(
+      decoration: BoxDecoration(color: Colors.white),
+      child: Center(
         child: Text(
           'Favourite Screen',
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
